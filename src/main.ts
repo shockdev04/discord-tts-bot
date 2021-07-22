@@ -24,6 +24,11 @@ const prefix = ".";
         throw e;
     }
 
+    client.user?.setPresence({ activity: {
+        type: "LISTENING",
+            name: "Type .tts [text]"
+    }});
+
     client.on("message", message => {
         if (!message.content.startsWith(prefix)) {
             return;
