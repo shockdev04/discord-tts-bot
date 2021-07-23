@@ -1,1 +1,1 @@
-Very basic and minimal bot for Discord TTS.
+Very basic and minimal TTS bot for Discord.
